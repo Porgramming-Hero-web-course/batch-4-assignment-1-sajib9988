@@ -10,7 +10,7 @@
       function updateProfile(profile: Profile, updates: Partial<Profile>): Profile {
         return { ...profile, ...updates };
       }
-      const myProfile = { name: "Alice", age: 25, email: "alice@example.com" };
+      const myProfile = { name: "sajib", age: 25, email: "alice@example.com" };
 
 
     //   console.log(updateProfile(myProfile, { age: 27 }));
